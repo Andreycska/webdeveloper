@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>Personal Folio</title>
+</head>
+<body>
+
+    <div class="page">
+
+        <!-- HEADER -->
+
+        <header class="header">
+            <div class="container">
+                <div class="header__iner">
+                    <div class="header__logo">webdeveloper</div>
+                    <div class="header__icon">
+                        <img src="img/code.png" alt="code icon">
+                    </div>
+
+                    <!-- NAV -->
+
+                    <nav class="nav">
+                        <a class="nav__link" href="index.html">Home</a>
+                        <a class="nav__link" href="about.html">About me</a>
+                        <a class="nav__link active" href="contacts.html">Contacts</a>
+                    </nav>
+                    
+                </div>
+            </div>
+        </header>
+
+        <!-- CONTENT -->
+
+        <main class="content">
+            <div class="container">
+                <div class="content__iner">
+                    <div class="content__header">
+                        <h1 class="content__title">Write me a <span>message</span></h1>
+                        <div class="content__text">
+                            <p>Many desktop publishing packages and web page editors now use Lorem</p>
+                        </div>
+                    </div>
+
+                    <form class="form" action="/" method="POST">
+                        <div class="form__group">
+                            <input class="input" name="name" type="text" placeholder="Name">
+                        </div>
+                        <div class="form__group">
+                            <input class="input" name="email" type="email"   placeholder="Email">
+                        </div>
+                        <div class="form__group">
+                            <input class="input" name="phone" type="tel" placeholder="Phone">
+                        </div>
+                        <div class="form__group">
+                            <textarea class="textarea" name="text" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form__group">
+                            <button class="btn btn--full" type="submit">Send message</button>
+                        </div>
+                    </form>
+
+                </div><!--/.CONTENT__INER-->
+            </div><!--/.CONTAINER-->
+        </main><!--/.CONTENT-->
+
+         <!-- FOOTER -->
+
+         <footer class="footer">
+             <div class="container">
+                 <div class="footer__contacts">
+                     <a class="footer__contacts-link" href="mailto:info@dmitry.com"><img class="footer__contacts-icon" src="img/mail.png" alt="mail icon">info@dmitry.com</a>
+                     <a class="footer__contacts-link" href="tel:+37125522531"><img class="footer__contacts-icon" src="img/tel.png" alt="telephone icon">+371 255-22-531</a>
+                 </div>
+             </div>
+         </footer>
+
+        <img class="photo" src="img/me.png" alt="my photo">
+
+    </div><!--/.PAGE-->
+    
+</body>
+</html>
